@@ -13,7 +13,12 @@
     host $ git submodule init
     host $ git submodule update
     host $ vagrant up
-
+    
+Note: if you are using Linux you should install the paskages before vagrant up:
+    
+    host $ sudo apt-get install nfs-kernel-server nfs-common 
+    host $ vagrant up
+    
 ## What's In The Box
 
 * RVM
