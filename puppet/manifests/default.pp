@@ -13,7 +13,10 @@ package {
     'libreadline-dev',
     'git-core',
     'curl',
-    'nodejs']:
+    'nodejs',
+    'libxml2',
+    'libxml2-dev',
+    'libxslt1-dev']:
   ensure => installed,
 }
 
