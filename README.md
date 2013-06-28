@@ -8,11 +8,11 @@
 
 ## How To Build The Virtual Machine
 
-host $ git clone
-host $ cd base-dev-box
-host $ git submodule init
-host $ git submodule update
-host $ vagrant up
+    host $ git clone
+    host $ cd base-dev-box
+    host $ git submodule init
+    host $ git submodule update
+    host $ vagrant up
 
 ## What's In The Box
 
