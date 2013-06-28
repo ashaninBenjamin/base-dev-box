@@ -25,4 +25,9 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provision :shell, :inline => 'sudo apt-get update -qq -y --fix-missing'
+
+  config.vm.provision :puppet,
+   :manifests_path => 'puppet/manifests',
+   :module_path    => 'puppet/modules'
+
 end
